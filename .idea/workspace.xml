@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32fa56d7-a8ad-431f-ae48-f3925289b528" name="Changes" comment="avaViewChanges">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0f1cdffc-028b-4960-9fa5-d9da25929306.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0f1cdffc-028b-4960-9fa5-d9da25929306.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_12_2023_21_41__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_12_2023_21_41__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_12_2023_21_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_12_2023_21_51__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/MainApp.java" afterDir="false" />
+>>>>>>> 7735f541be7338c1defcc84860ebb5aa05a7aaa5
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +228,12 @@
       <workItem from="1703707229600" duration="160000" />
       <workItem from="1703707545206" duration="2975000" />
       <workItem from="1703710909718" duration="2017000" />
+<<<<<<< HEAD
       <workItem from="1703716120733" duration="3759000" />
+=======
+      <workItem from="1703716120733" duration="1562000" />
+      <workItem from="1703719139353" duration="807000" />
+>>>>>>> 7735f541be7338c1defcc84860ebb5aa05a7aaa5
     </task>
     <task id="LOCAL-00001" summary="LoginAdmin">
       <created>1701473380979</created>
