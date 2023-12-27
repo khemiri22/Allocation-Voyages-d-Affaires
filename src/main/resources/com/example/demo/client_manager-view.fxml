@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controllers.ClientManagerView">
+    <children>
+        <AnchorPane layoutX="56.0" layoutY="118.0" prefHeight="233.0" prefWidth="502.0">
+            <children>
+                <TableView fx:id="client_tableView" layoutX="-1.0" layoutY="18.0" onMouseClicked="#getSelectedItem" prefHeight="200.0" prefWidth="502.0">
+                    <columns>
+                        <TableColumn fx:id="clientID_col" prefWidth="64.0" text="ID" />
+                        <TableColumn fx:id="clientNom_col" prefWidth="86.4000244140625" text="Nom" />
+                        <TableColumn fx:id="clientAdresse_col" prefWidth="75.0" text="Adresse" />
+                        <TableColumn fx:id="clientResidence_col" prefWidth="75.0" text="Residence" />
+                        <TableColumn fx:id="clientSecteur_col" prefWidth="93.60003662109375" text="Secteur" />
+                        <TableColumn fx:id="clientAgence_col" prefWidth="81.60003662109375" text="Agence" />
+
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="searchClient_field" layoutX="127.0" layoutY="66.0" prefHeight="26.0" prefWidth="290.0" promptText="Rechercher" />
+        <Button fx:id="openFolder_bnt" layoutX="419.0" layoutY="352.0" mnemonicParsing="false" onAction="#moveToAddAvaFolder" prefHeight="26.0" prefWidth="140.0" text="Nouvelle ouverture" />
+      <Button fx:id="logout" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Logout" prefHeight="26.0" prefWidth="85.0" text="Déconnecter" />
+    </children>
+</AnchorPane>

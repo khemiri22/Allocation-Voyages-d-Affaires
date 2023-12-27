@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="parentForm" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controllers.AvaFolderView">
+   <children>
+      <AnchorPane layoutX="62.0" layoutY="61.0" prefHeight="279.0" prefWidth="503.0">
+         <children>
+            <Label layoutX="17.0" layoutY="15.0" prefHeight="22.0" prefWidth="68.0" text="Type AVA" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="51.0" prefHeight="22.0" prefWidth="68.0" text="Titulaire" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="86.0" prefHeight="22.0" prefWidth="154.0" text="Montant Base de calcul" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="125.0" prefHeight="22.0" prefWidth="92.0" text="Droit initial" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="164.0" prefHeight="22.0" prefWidth="92.0" text="Solde AVA" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="205.0" prefHeight="22.0" prefWidth="144.0" text="Date domiciliation" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="242.0" prefHeight="22.0" prefWidth="154.0" text="Déclaration fiscal reçu" textAlignment="JUSTIFY">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="avaType_cobx" layoutX="223.0" layoutY="14.0" prefWidth="150.0" promptText="Select AVA Type" />
+            <TextField fx:id="titulaire_field" editable="false" layoutX="224.0" layoutY="50.0" />
+            <TextField fx:id="baseCalc_field" layoutX="223.0" layoutY="84.0" />
+            <TextField fx:id="droitInit_field" editable="false" layoutX="223.0" layoutY="123.0" />
+            <TextField fx:id="soldeAva_field" editable="false" layoutX="223.0" layoutY="162.0" />
+            <TextField fx:id="dateDomiciliation_field" editable="false" layoutX="223.0" layoutY="203.0" />
+            <Button fx:id="importDeclarartion_btn" layoutX="224.0" layoutY="240.0" mnemonicParsing="false" onAction="#uploadFile" prefHeight="26.0" prefWidth="68.0" text="Importer" />
+            <Label fx:id="importLabel" layoutX="297.0" layoutY="249.0" prefHeight="18.0" prefWidth="197.0" text="Importer la déclarration fiscal ici">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="createAva_btn" layoutX="456.0" layoutY="352.0" mnemonicParsing="false" onAction="#createAvaFolder" prefHeight="26.0" prefWidth="118.0" text="Créer le dossier" />
+   </children>
+</AnchorPane>

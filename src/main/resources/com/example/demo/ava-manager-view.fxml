@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.Controllers.AvaManagerView">
+    <children>
+        <AnchorPane layoutX="18.0" layoutY="117.0" prefHeight="234.0" prefWidth="562.0">
+            <children>
+                <TableView fx:id="ava_tableView" layoutX="3.0" layoutY="17.0" onMouseClicked="#getSelectedItem" prefHeight="200.0" prefWidth="555.0">
+                    <columns>
+                        <TableColumn fx:id="IDAva" prefWidth="54.39996337890625" text="ID" />
+                        <TableColumn fx:id="type" prefWidth="60.800048828125" text="type" />
+                        <TableColumn fx:id="titulaire" prefWidth="71.20001220703125" text="Titulaire" />
+                        <TableColumn fx:id="MontantCalcul" prefWidth="108.0" text="Montant Calculé" />
+                        <TableColumn fx:id="DroitInitial" prefWidth="88.0" text="Droit initial" />
+                        <TableColumn fx:id="SoldeAva" prefWidth="80.79998779296875" text="Solde Ava" />
+                  <TableColumn fx:id="Status" prefWidth="89.5999755859375" text="Status" />
+                  <TableColumn fx:id="DeclarationFiscal" editable="false" prefWidth="89.5999755859375" sortable="false" visible="false" />
+
+
+                    </columns>
+                </TableView>
+            </children>
+        </AnchorPane>
+        <TextField fx:id="searchAva_field" layoutX="127.0" layoutY="66.0" prefHeight="26.0" prefWidth="290.0" promptText="Rechercher" />
+        <Button fx:id="openFolder_bnt" layoutX="18.0" layoutY="351.0" mnemonicParsing="false" onAction="#consulterDeclaration" prefHeight="26.0" prefWidth="116.0" text="Déclaration Fiscale" />
+      <Button fx:id="openFolder_bnt1" layoutX="371.0" layoutY="351.0" mnemonicParsing="false" onAction="#rejeter" prefHeight="26.0" prefWidth="85.0" text="Rejeter" textFill="#e41d1d" />
+      <Button fx:id="openFolder_bnt11" layoutX="475.0" layoutY="351.0" mnemonicParsing="false" onAction="#valider" prefHeight="26.0" prefWidth="85.0" text="Valider" textFill="#2d8939" />
+      <Button fx:id="logout" layoutX="18.0" layoutY="14.0" mnemonicParsing="false" onAction="#Logout" prefHeight="26.0" prefWidth="85.0" text="Déconnecter" />
+    </children>
+</AnchorPane>
