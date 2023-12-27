@@ -1,6 +1,6 @@
 package com.example.demo.Controllers;
 
-import com.example.demo.Controllers.Utilities.ControleFields;
+import com.example.demo.Controllers.Utilities.ControlFields;
 import com.example.demo.DAOs.AgentDAO;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -28,7 +28,7 @@ public class LoginView implements Initializable {
 
     public void login() throws IOException {
         Alert alert;
-        if(ControleFields.verifyEmpty(usernameField.getText()) || ControleFields.verifyEmpty(passwordField.getText()))
+        if(ControlFields.verifyEmpty(usernameField.getText()) || ControlFields.verifyEmpty(passwordField.getText()))
         {
             alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Message Erreur");

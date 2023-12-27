@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32fa56d7-a8ad-431f-ae48-f3925289b528" name="Changes" comment="avaViewChanges" />
+    <list default="true" id="32fa56d7-a8ad-431f-ae48-f3925289b528" name="Changes" comment="avaViewChanges">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/AvaFolderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/AvaFolderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/LoginView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/LoginView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Controllers/Utilities/ControleFields.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +20,8 @@
       <list>
         <option value="package-info" />
         <option value="FxmlFile" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,114 +59,120 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last.edited.regexp&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/KHEMIRI/Downloads/Tess4J-3.4.8-src/Tess4J/dist/tess4j-3.4.8.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.7491369&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last.edited.regexp": "",
+    "last_opened_file_path": "C:/Users/KHEMIRI/Downloads/Tess4J-3.4.8-src/Tess4J/dist/tess4j-3.4.8.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.7491369",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.demo.Controllers.Utilities" />
       <recent name="com.example.demo.DAOs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainApp">
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.MainApp" />
+  <component name="RunManager" selected="JUnit.ControlFieldsTest.calculateAvaSoldWithELowerCaseType">
+    <configuration name="ControlFieldsTest.calculateAvaSoldWithALowerCaseType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="PATTERN" value="com.example.demo.Controllers.Utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AgentDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.DAOs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.DAOs" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.DAOs.AgentDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AgentDAOTest.loginInternAgentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.DAOs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.DAOs" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.DAOs.AgentDAOTest" />
-      <option name="METHOD_NAME" value="loginInternAgentTest" />
+      <option name="PACKAGE_NAME" value="com.example.demo.Controllers.Utilities" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Controllers.Utilities.ControlFieldsTest" />
+      <option name="METHOD_NAME" value="calculateAvaSoldWithALowerCaseType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AgentDAOTest.loginTestEmptyFields" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControlFieldsTest.calculateAvaSoldWithAUpperCaseType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.DAOs.*" />
+          <option name="PATTERN" value="com.example.demo.Controllers.Utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.DAOs" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.DAOs.AgentDAOTest" />
-      <option name="METHOD_NAME" value="loginTestEmptyFields" />
+      <option name="PACKAGE_NAME" value="com.example.demo.Controllers.Utilities" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Controllers.Utilities.ControlFieldsTest" />
+      <option name="METHOD_NAME" value="calculateAvaSoldWithAUpperCaseType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AgentDAOTest.loginTestEmptyUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ControlFieldsTest.calculateAvaSoldWithELowerCaseType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.demo.DAOs.*" />
+          <option name="PATTERN" value="com.example.demo.Controllers.Utilities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.demo.DAOs" />
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.DAOs.AgentDAOTest" />
-      <option name="METHOD_NAME" value="loginTestEmptyUsername" />
+      <option name="PACKAGE_NAME" value="com.example.demo.Controllers.Utilities" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Controllers.Utilities.ControlFieldsTest" />
+      <option name="METHOD_NAME" value="calculateAvaSoldWithELowerCaseType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlFieldsTest.calculateAvaSoldWithEUpperCaseType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.Controllers.Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.Controllers.Utilities" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Controllers.Utilities.ControlFieldsTest" />
+      <option name="METHOD_NAME" value="calculateAvaSoldWithEUpperCaseType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlFieldsTest.calculateAvaSoldWithTypeWhereIsNotAOrE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.Controllers.Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo.Controllers.Utilities" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Controllers.Utilities.ControlFieldsTest" />
+      <option name="METHOD_NAME" value="calculateAvaSoldWithTypeWhereIsNotAOrE" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainApp" />
-        <item itemvalue="JUnit.AgentDAOTest" />
-        <item itemvalue="JUnit.AgentDAOTest.loginInternAgentTest" />
-        <item itemvalue="JUnit.AgentDAOTest.loginTestEmptyUsername" />
-        <item itemvalue="JUnit.AgentDAOTest.loginTestEmptyFields" />
+        <item itemvalue="JUnit.ControlFieldsTest.calculateAvaSoldWithELowerCaseType" />
+        <item itemvalue="JUnit.ControlFieldsTest.calculateAvaSoldWithALowerCaseType" />
+        <item itemvalue="JUnit.ControlFieldsTest.calculateAvaSoldWithEUpperCaseType" />
+        <item itemvalue="JUnit.ControlFieldsTest.calculateAvaSoldWithAUpperCaseType" />
+        <item itemvalue="JUnit.ControlFieldsTest.calculateAvaSoldWithTypeWhereIsNotAOrE" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +224,8 @@
       <workItem from="1703694381799" duration="269000" />
       <workItem from="1703694830364" duration="3159000" />
       <workItem from="1703707229600" duration="160000" />
+      <workItem from="1703707545206" duration="2975000" />
+      <workItem from="1703710909718" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="LoginAdmin">
       <created>1701473380979</created>

@@ -1,6 +1,6 @@
 package com.example.demo.Controllers.Utilities;
 
-public class ControleFields {
+public class ControlFields {
     public static boolean verifyEmpty(String s)
     {
         return s.isEmpty() || s.isBlank();
@@ -10,8 +10,8 @@ public class ControleFields {
         if(!s.matches("[^\\\\+\\-0-9.,]"))
         {
             try {
-                Double.parseDouble(s);
-                return true;
+                double real = Double.parseDouble(s);
+                return real > 0;
             }catch (NumberFormatException ex)
             {
                 return false;
@@ -19,14 +19,14 @@ public class ControleFields {
         }
         return false;
     }
-    public static Double calculateAvaSold(Double baseCalcule,String typeAva)
+    public static Double calculateAvaSold(Double baseCalcul,String typeAva)
     {
         try {
             if(typeAva.equals("A"))
             {
-                return baseCalcule * 0.25;
+                return baseCalcul * 0.25;
             } else if (typeAva.equals("E")) {
-                return baseCalcule * 0.35;
+                return baseCalcul * 0.35;
             }else
                 return (double)0;
         }catch (NullPointerException ex){

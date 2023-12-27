@@ -1,6 +1,6 @@
 package com.example.demo.Controllers;
 
-import com.example.demo.Controllers.Utilities.ControleFields;
+import com.example.demo.Controllers.Utilities.ControlFields;
 import com.example.demo.DAOs.AvaFolderDAO;
 import com.example.demo.Entities.AvaFolder;
 import com.example.demo.Entities.SharedData;
@@ -80,18 +80,18 @@ public class AvaFolderView implements Initializable {
 
         baseCalc_field.textProperty().addListener((observable,oldValue,newValue)->{
 
-                if (!ControleFields.isoDouble(newValue) || newValue.length() < 5 )
+                if (!ControlFields.isoDouble(newValue) || newValue.length() < 5 )
                 {
                     baseCalc_field.setText(newValue.replaceAll("[^\\\\+\\-0-9.,]", ""));
                 }
 
-                if(!ControleFields.verifyEmpty(baseCalc_field.getText())){
+                if(!ControlFields.verifyEmpty(baseCalc_field.getText())){
                     String valueString = baseCalc_field.getText().replace(',','.');
-                    if(ControleFields.isoDouble(newValue))
+                    if(ControlFields.isoDouble(newValue))
                     {
                         baseCalc_field.setText(newValue);
                         double baseAva = Double.parseDouble(baseCalc_field.getText());
-                        double soldAva =ControleFields.calculateAvaSold(baseAva, avaType_cobx.getSelectionModel().getSelectedItem());
+                        double soldAva = ControlFields.calculateAvaSold(baseAva, avaType_cobx.getSelectionModel().getSelectedItem());
                         droitInit_field.setText(String.format(Locale.US,"%.3f",soldAva));
                         soldeAva_field.setText(String.format(Locale.US, "%.3f",soldAva));
                     }else {
@@ -102,7 +102,7 @@ public class AvaFolderView implements Initializable {
         avaType_cobx.valueProperty().addListener((observable,oldValue,newValue) -> {
             avaType_cobx.setValue(newValue);
             double baseAva = Double.parseDouble(baseCalc_field.getText());
-            double soldAva =ControleFields.calculateAvaSold(baseAva,newValue);
+            double soldAva = ControlFields.calculateAvaSold(baseAva,newValue);
             droitInit_field.setText(String.format(Locale.US,"%.3f",soldAva));
             soldeAva_field.setText(String.format(Locale.US, "%.3f",soldAva));
         });
