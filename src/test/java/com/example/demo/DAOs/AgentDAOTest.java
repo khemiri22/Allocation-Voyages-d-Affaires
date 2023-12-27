@@ -19,7 +19,6 @@ import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AgentDAOTest {
-
     @NotNull
     public static ArrayList<Agent> getAgents(){
             ArrayList<Agent> data = new ArrayList<Agent>();

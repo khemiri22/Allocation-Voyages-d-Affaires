@@ -86,25 +86,26 @@ public class AvaFolderView implements Initializable {
                 }
 
                 if(!ControlFields.verifyEmpty(baseCalc_field.getText())){
-                    String valueString = baseCalc_field.getText().replace(',','.');
                     if(ControlFields.isoDouble(newValue))
                     {
-                        baseCalc_field.setText(newValue);
-                        double baseAva = Double.parseDouble(baseCalc_field.getText());
-                        double soldAva = ControlFields.calculateAvaSold(baseAva, avaType_cobx.getSelectionModel().getSelectedItem());
-                        droitInit_field.setText(String.format(Locale.US,"%.3f",soldAva));
-                        soldeAva_field.setText(String.format(Locale.US, "%.3f",soldAva));
+                            double baseAva = Double.parseDouble(baseCalc_field.getText());
+                            double soldAva = ControlFields.calculateAvaSold(baseAva, avaType_cobx.getSelectionModel().getSelectedItem());
+                            droitInit_field.setText(String.format(Locale.US,"%.3f",soldAva));
+                            soldeAva_field.setText(String.format(Locale.US, "%.3f",soldAva));
+
                     }else {
                         baseCalc_field.setText(oldValue);
                     }
                 }
         });
         avaType_cobx.valueProperty().addListener((observable,oldValue,newValue) -> {
-            avaType_cobx.setValue(newValue);
-            double baseAva = Double.parseDouble(baseCalc_field.getText());
-            double soldAva = ControlFields.calculateAvaSold(baseAva,newValue);
-            droitInit_field.setText(String.format(Locale.US,"%.3f",soldAva));
-            soldeAva_field.setText(String.format(Locale.US, "%.3f",soldAva));
+            try {
+                double baseAva = Double.parseDouble(baseCalc_field.getText());
+                double soldAva = ControlFields.calculateAvaSold(baseAva,newValue);
+                droitInit_field.setText(String.format(Locale.US,"%.3f",soldAva));
+                soldeAva_field.setText(String.format(Locale.US, "%.3f",soldAva));
+            }catch (NumberFormatException ignored){}
+
         });
     }
     public void createAvaFolder() throws IOException {
